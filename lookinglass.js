@@ -72,8 +72,8 @@ jQuery(document).ready(function($){
         }
     }
     
-    createLookinglassConsole()
-    setLookinglassCss()
+    //createLookinglassConsole()
+    //setLookinglassCss()
     
     //Stores the userID in the localStorage
     $('input#user_login').blur(function() {
