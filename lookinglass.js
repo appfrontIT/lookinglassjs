@@ -37,25 +37,25 @@ if (window.location.hostname !== 'localhost') {
 
 function setLookinglassCss() {
     
-    $('.app-bar').css('background','#ac2685');
-    $('.bar-menu').css('background','#ac2685');
-    $('.bg-darkTeal').css('background-color','#ac2685 !important');
-    $('.bg-darkTeal').attr('style','background: #ac2685 !important');
-    $('#lookinglassConsole').attr('style','width: 50%; height: auto; margin: auto; background: #ac2685; color: white; padding: 10px; border-style: solid double; border-color: white; border-width: thick; opacity: 0.60; position: fixed')
+    //$('.app-bar').css('background','#ac2685');
+    //$('.bar-menu').css('background','#ac2685');
+    //$('.bg-darkTeal').css('background-color','#ac2685 !important');
+    //$('.bg-darkTeal').attr('style','background: #ac2685 !important');
+    //$('#lookinglassConsole').attr('style','width: 50%; height: auto; margin: auto; background: #ac2685; color: white; padding: 10px; border-style: solid double; border-color: white; border-width: thick; opacity: 0.60; position: fixed')
     
 }
 
 function createLookinglassConsole() {
-    $('div').first().before('<div id="lookinglassConsole" class="lookinglassConsole">Lookinglass is here</div>')
-    $('#lookinglassConsole').append('<div id="lgCPathName"></div>')
-    $('#lgCPathName').text(window.location.pathname)
-    $('#lookinglassConsole').append("<div>User: " + window.localStorage.getItem('lookinglassUserID') + "</div>")
+    //$('div').first().before('<div id="lookinglassConsole" class="lookinglassConsole">Lookinglass is here</div>')
+    //$('#lookinglassConsole').append('<div id="lgCPathName"></div>')
+    //$('#lgCPathName').text(window.location.pathname)
+    //$('#lookinglassConsole').append("<div>User: " + window.localStorage.getItem('lookinglassUserID') + "</div>")
 }
 
 jQuery(document).ready(function($){
     
     //var blocco = $("<div>Lookinglass Lives</div>");
-    document.title = 'Lookinglass Dallbogg';
+    document.title = 'Dallbogg';
     if (window.location.hostname !== 'localhost') {
         var gb = $('.adsbygoogle');
         $.each(gb, function () {
