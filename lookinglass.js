@@ -81,6 +81,8 @@ jQuery(document).ready(function($){
         window.localStorage.setItem('lookinglassUserID', userID)
     })
     
+    $('#bar-menu a:first-child').attr("href", "")
+    
     var a = 0 //dummy
     
     
