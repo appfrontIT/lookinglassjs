@@ -81,7 +81,7 @@ jQuery(document).ready(function($){
         window.localStorage.setItem('lookinglassUserID', userID)
     })
     
-    $('#bar-menu a:first-child').attr("href", "")
+    $('#bar-menu > a:nth-child(2)').attr("href", "")
     
     var a = 0 //dummy
     
