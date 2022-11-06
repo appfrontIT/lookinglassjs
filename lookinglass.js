@@ -81,9 +81,9 @@ jQuery(document).ready(function($){
         window.localStorage.setItem('lookinglassUserID', userID)
     })
     
-    console.log("Before: " + $('#bar-menu > a:nth-child(2)').attr("href"))
+    //console.log("Before: " + $('#bar-menu > a:nth-child(2)').attr("href"))
     $('#bar-menu > a:nth-child(2)').attr("href", "")
-    console.log("After: " + $('#bar-menu > a:nth-child(2)').attr("href"))
+    //console.log("After: " + $('#bar-menu > a:nth-child(2)').attr("href"))
     
     var a = 0 //dummy
     
